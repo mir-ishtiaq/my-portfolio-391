@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>MIR ISHTIAQ UDDIN</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    
+    h2 {
+      color: blue;
+    }
+    
+    .bold {
+      font-weight: bold;
+    }
+    
+    .italic {
+      font-style: italic;
+    }
+    
+    
+    .image-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .image-container img {
+      width: 45%; 
+    }
+
+    
+    .personal-info {
+      font-weight: bold;
+      font-size: 18px;
+      color: #3366cc;
+      margin-bottom: 1.5em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="text-align: center;">MIR ISHTIAQ UDDIN</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#personal-info">Personal Info</a>
+      From Dhaka</li>
+      <li><a href="#hobbies">Hobbies</a>
+      Coding, Playing FIFA</li>
+      <li><a href="#favorite-links">Favorite Links</a>
+      youtube.com</li>
+    </ul>
+  </nav>
+  
+  <section id="personal-info">
+    <h2>Personal Info</h2>
+    <p class="personal-info">I am Mir Ishtiaq, from the vibrant city of Old Dhaka, Bangladesh, and currently pursuing my studies in Computer Science and Engineering at <a href="https://www.bracu.ac.bd/">BRAC University</a>
+        . I have always been fascinated by the world of technology and computers. One of my greatest passions is reading books, particularly novels that delve into genres like detective, psychological, philosophy, and computer science. Books have a way of expanding my horizons and opening my mind to new possibilities.</p>
+    <p class="personal-info">Football holds a special place in my heart, and I am an ardent supporter of Real Madrid. Watching the team's matches and witnessing their victories brings me immense joy. As I progress in my studies, my ambition is to become a skilled software engineer. I am deeply intrigued by software and web development, as well as the exciting field of artificial intelligence. Lately, my interest in AI has grown, and I aspire to pursue a master's degree in AI from a renowned institution abroad.</p>
+    <p class="personal-info">Aside from my academic pursuits, I have a diverse range of interests, and one of my greatest pleasures in life is savoring delicious food. Biryani, kabab, pasta, pizza, and Chinese cuisine are among my favorites. Exploring different cuisines and flavors is a delightful adventure for me. Whether it's trying new recipes or discovering local eateries, I find great satisfaction in the world of gastronomy.</p>
+    <p class="personal-info">Favorite Quote: "The only way to do great work is to love what you do." - Steve Jobs</p>
+    <p class="personal-info">Top Ten Favorite CDs:</p>
+    <ol class="personal-info">
+      <li>Abbey Road - The Beatles</li>
+      <li>The Dark Side of the Moon - Pink Floyd</li>
+      <li>Thriller - Michael Jackson</li>
+      <li>Sgt. Pepper's Lonely Hearts Club Band - The Beatles</li>
+      <li>Hotel California - Eagles</li>
+      <li>Back in Black - AC/DC</li>
+      <li>Nevermind - Nirvana</li>
+      <li>The Joshua Tree - U2</li>
+      <li>Rumours - Fleetwood Mac</li>
+      <li>Appetite for Destruction - Guns N' Roses</li>
+    </ol>
+  </section>
+  
+  <section id="hobbies">
+    <h2 class="bold">Hobbies</h2>
+    <p>Some of my hobbies include:</p>
+    <ul>
+      <li>Playing Guitar</li>
+      <li>Travelling around</li>
+      <li>Reading books</li>
+    </ul>
+    <p class="italic">"I'm gonna make him an offer he can't refuse." :The Godfather (1972)</p>
+  </section>
+  
+  <section id="favorite-links">
+    <h2>Favorite Links</h2>
+    <ul>
+      <li><a href="#internal-link">Internal Link</a></li>
+      <li><a href="https://www.bracu.ac.bd/">BRAC University</a></li>
+      <li><a href="https://piazza.com/cse391">CSE 391 Piazza</a></li>
+      <li><a href="https://www.w3schools.com">W3Schools</a></li>
+      <li><a href="">External Link</a></li>
+    </ul>
+    <p>Check out this <a href="">link</a>!</p>
+  </section>
+  
+  <table>
+    <tr>
+      <th>Table 1</th>
+      <th>Table 2</th>
+    </tr>
+    <tr>
+      <td>Row 1, Column 1</td>
+      <td>Row 1, Column 2</td>
+    </tr>
+    <tr>
+      <td>Row 2, Column 1</td>
+      <td>Row 2, Column 2</td>
+    </tr>
+  </table>
+  
+  <div class="image-container">
+    <img src="C:\Users\16301137\Downloads\a1\images\346869090_629499549070527_237828419683275006_n.jpg" alt="">
+    <img src="C:\Users\16301137\Downloads\a1\images\49074714_2840689469289513_8514807187267125248_n-removebg-preview.png" alt="">
+  </div>
+  
+  <footer>
+    <p id="location"></p>
+    <script>
+      const locationElement = document.getElementById('location');
+      const currentLocation = window.location.href;
+      const lastModifiedDate = document.lastModified;
+      locationElement.innerHTML = `Page location: ${currentLocation} | Last modified: ${lastModifiedDate}`;
+    </script>
+  </footer>
+  
+</body>
+</html>
